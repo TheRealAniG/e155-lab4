@@ -2,7 +2,7 @@
 // Fur Elise, E155 Lab 4
 // Updated Fall 2024
 
-// Pitch in Hz, duration in ms
+// Pitch in Hz, duration in ms, Fur Elise, E155 Lab 4
 const int notes[][2] = {
 {659,	125},
 {623,	125},
