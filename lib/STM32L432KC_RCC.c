@@ -7,34 +7,56 @@ void configurePLL() {
     // Set clock to 80 MHz
     // Output freq = (src_clk) * (N/M) / R
     // (4 MHz) * (N/M) / R = 80 MHz
-    // M: XX, N: XX, R: XX
+    // M: 1, N: 40, R: 2
     // Use MSI as PLLSRC
 
-    // TODO: Turn off PLL
+    // Turn off PLL
+    RCC->CR &= ~(1 << 24);
+
     
-    // TODO: Wait till PLL is unlocked (e.g., off)
-    
+    // Wait till PLL is unlocked (e.g., off)
+    while (RCC->CR & (1 << 25));
 
     // Load configuration
-    // TODO: Set PLL SRC to MSI
+    // Set PLL SRC to MSI
+    RCC->PLLCFGR &= ~(1 << 1);
+    RCC->PLLCFGR |=  (1 << 0);
 
 
-    // TODO: Set PLLN
+    // Set PLLN
+    RCC->PLLCFGR &= ~(1 << 14);
+    RCC->PLLCFGR |=  (1 << 13);
+    RCC->PLLCFGR &= ~(1 << 12);
+    RCC->PLLCFGR |=  (1 << 11);
+    RCC->PLLCFGR &= ~(1 << 10);
+    RCC->PLLCFGR &= ~(1 << 9);
+    RCC->PLLCFGR &= ~(1 << 8);
 
 
-    // TODO: Set PLLM
+
+
+    // Set PLLM
+    RCC->PLLCFGR &= ~(1 << 6);
+    RCC->PLLCFGR &= ~(1 << 5);
+    RCC->PLLCFGR &= ~(1 << 4);
     
 
-    // TODO: Set PLLR
+    // Set PLLR
+    RCC->PLLCFGR &= ~(1 << 26);
+    RCC->PLLCFGR &= ~(1 << 25);
 
     
-    // TODO: Enable PLLR output
+    // Enable PLLR output
+    RCC->PLLCFGR |=  (1 << 24);
     
+  
+    // Enable PLL
+    RCC->CR |=  (1 << 24);
 
-    // TODO: Enable PLL
     
     
-    // TODO: Wait until PLL is locked
+    // Wait until PLL is locked
+    while (!(RCC->CR & (1 << 25)));
     
 }
 
@@ -44,5 +66,5 @@ void configureClock(){
 
     // Select PLL as clock source
     RCC->CFGR |= (0b11 << 0);
-    while(!((RCC->CFGR >> 2) & 0b11));
+    while (((RCC->CFGR >> 2) & 0b11) != 0b11);
 }
