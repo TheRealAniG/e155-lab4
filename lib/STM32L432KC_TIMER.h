@@ -36,4 +36,18 @@ typedef struct
 #define TIMER6 ((TIMER_TypeDef *) TIMER_BASE6)
 #define TIMER7 ((TIMER_TypeDef *) TIMER_BASE7)
 
+///////////////////////////////////////////////////////////////////////////////
+// Function prototypes
+///////////////////////////////////////////////////////////////////////////////
+
+void configureTimer(void);
+
+void startPitchTimer(uint32_t frequency);
+
+void startDurationTimer(uint32_t duration); 
+
+int timerDone(TIMER_TypeDef *timer);
+
+void stopTimer(TIMER_TypeDef *timer);
+
 #endif
