@@ -13,8 +13,8 @@
 
 #define __IO volatile
 
-#define TIMER_BASE6 (0x40001000UL) // base address of TIM6
-#define TIMER_BASE7 (0x40001400UL) // base address of TIM7
+#define TIM_BASE6 (0x40001000UL) // base address of TIM6
+#define TIM_BASE7 (0x40001400UL) // base address of TIM7
 
 
 typedef struct
@@ -33,8 +33,8 @@ typedef struct
   __IO uint32_t ARR;  /*Address offset: 0x2C */
 } TIMER_TypeDef;
 
-#define TIMER6 ((TIMER_TypeDef *) TIMER_BASE6)
-#define TIMER7 ((TIMER_TypeDef *) TIMER_BASE7)
+#define TIM6 ((TIMER_TypeDef *) TIM_BASE6)
+#define TIM7 ((TIMER_TypeDef *) TIM_BASE7)
 
 ///////////////////////////////////////////////////////////////////////////////
 // Function prototypes

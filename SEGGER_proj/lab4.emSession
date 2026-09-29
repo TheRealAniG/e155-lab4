@@ -41,20 +41,20 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="38" useTextEdit="1" path="../src/main.c" left="0" top="117" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="743" useTextEdit="1" path="../src/main.c" left="0" selected="1" top="721" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="28" y="110" useTextEdit="1" path="STM32L4xx/Device/Include/stm32l4xx.h" left="0" top="65" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="19" y="18" useTextEdit="1" path="lab4.emProject" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="SEGGER_THUMB_Startup.s" left="0" top="123" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="STM32L4xx/Source/stm32l432xx_Vectors.s" left="0" top="78" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="STM32L4xx/Source/STM32L4xx_Startup.s" left="0" top="132" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="12" useTextEdit="1" path="../lib/STM32L432KC_RCC.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="68" useTextEdit="1" path="../lib/STM32L432KC_RCC.c" left="0" top="41" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="14" useTextEdit="1" path="../lib/STM32L432KC_GPIO.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="10" useTextEdit="1" path="../lib/STM32L432KC_GPIO.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="76" y="37" useTextEdit="1" path="../lib/STM32L432KC_RCC.h" left="0" top="26" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="62" useTextEdit="1" path="../lib/STM32L432KC_RCC.c" left="0" top="25" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="46" useTextEdit="1" path="../lib/STM32L432KC_GPIO.h" left="0" top="23" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="37" useTextEdit="1" path="../lib/STM32L432KC_GPIO.c" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="14" y="9" useTextEdit="1" path="../lib/STM32L432KC_FLASH.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="6" useTextEdit="1" path="../lib/STM32L432KC_FLASH.c" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../lib/STM32L432KC_TIMER.c" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="6" y="25" useTextEdit="1" path="../lib/STM32L432KC_TIMER.h" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="8" useTextEdit="1" path="../lib/STM32L432KC_FLASH.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="67" useTextEdit="1" path="../lib/STM32L432KC_TIMER.c" left="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="39" useTextEdit="1" path="../lib/STM32L432KC_TIMER.h" left="0" top="14" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="lab4" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/anirgupta/Desktop/e155-lab4/SEGGER_proj" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="lab4" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/anirgupta/Desktop/e155-lab4/SEGGER_proj" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
