@@ -1,8 +1,7 @@
 // main.c
-// GPIO blink LED with clock configuration
-// Josh Brake
-// jbrake@hmc.edu
-// 9/16/24
+// Anirudh Gupta
+// anirgupta@hmc.edu
+// 9/28/26
 
 // Pitch in Hz, duration in ms, Fur Elise, E155 Lab 4
 const int notes[][2] = {
